@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="panda_control_scripts" name="move_gripper_with_position_control_sim" type="move_gripper_with_position_control_sim.py" output="screen"/>
+    <node pkg="panda_control_scripts" name="move_robot_with_position_control_sim" type="move_robot_with_position_control_sim.py" output="screen"/>
+    <node pkg="panda_control_scripts" name="generate_end_effector_goal" type="generate_end_effector_goal.py" output="screen"/>
+</launch>
